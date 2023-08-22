@@ -9,4 +9,4 @@ example_response.py
 *.bak
 *.tmp
 app.db
-secrets.py
+local_secrets.py
