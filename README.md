@@ -8,6 +8,6 @@ This repo contains Python script to help import notes from an unencrypted Huawei
 
 > Note that the tags/labels are automatically capitalized. 
 
-> Note that you should probably enable some sort of lower security authentication in your account, if you get an endless login waiting loop.
+> Note that you should probably TEMPORARILY turn off two-factor authentication for your account, if you get an endless login waiting loop.
 
 > Note that running the script twice will result in duplicates! There's not check in place to see if an note/memo already exists in Google Keep.

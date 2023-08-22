@@ -12,7 +12,7 @@ def create_note(gkeep_state: GkeepState, db_note: DbNote, label: Optional[gkeepa
     note = gkeep_create_note(gkeep_state, text=db_note.title)
     if label is not None:
         note.labels.add(label)
-    print("    Note created: {}".format(note.text[:32]))
+    print("    Note created: {}".format(note.text[:32].replace("\n", " ").replace("\r", "")))
 
 
 def create_notes(gkeep_state: GkeepState, db_notes: List[DbNote]):
